@@ -19,25 +19,26 @@
 /*formulario*/
 
 #descriçao-evento {
-    background: linear-gradient(to left,rgba(0,0,0,.8), rgba(0,0,0,0.8)), url("../Imagens/brazilian-food-assortment-with-board.jpg");  
-    background-size:cover;
+    background: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url("../Imagens/brazilian-food-assortment-with-board.jpg");
+    background-size: cover;
     height: 85vh;
     display: flex;
-    justify-content:space-around ;
+    justify-content: space-around;
     align-items: center;
     color: var(--text-color);
 }
 
-#descriçao-dentro h2, #descriçao-dentro .dia-evento{
-  color: var(--primeira);
+#descriçao-dentro h2,
+#descriçao-dentro .dia-evento {
+    color: var(--primeira);
 }
 
-#descriçao-dentro h2{
+#descriçao-dentro h2 {
     font-size: 3em;
     margin-bottom: 1em;
 }
 
-#descriçao-dentro .paragrafo-evento{
+#descriçao-dentro .paragrafo-evento {
     font-size: 2em;
     text-decoration: uppercase;
     max-width: 350px;
@@ -45,50 +46,51 @@
     margin-bottom: 1em;
 }
 
-#descriçao-evento p{
+#descriçao-evento p {
     font-size: 1.2em;
     margin-bottom: 0.3em;
 }
 
-#descriçao-evento .dia-evento{
+#descriçao-evento .dia-evento {
     font-weight: bold;
 }
 
 
 /*form*/
 
-#formulario{
+#formulario {
     background-color: var(--secundaria);
     padding: 2em;
     max-width: 22%;
 }
 
-#formulario p{
+#formulario p {
     font-size: 1.5em;
     color: var(--text-secundaria);
     margin-bottom: 1em;
 }
 
-.grupo-form{
+.grupo-form {
     display: flex;
     flex-direction: column;
     margin-bottom: 0.8em;
 }
 
-#formulario label{
-  color: var(--text-terciaria);
-  margin-bottom: .3em;
-  font-weight: bold;
+#formulario label {
+    color: var(--text-terciaria);
+    margin-bottom: .3em;
+    font-weight: bold;
 }
 
-.grupo-form input, .grupo-form select{
+.grupo-form input,
+.grupo-form select {
     padding: 6px 8px;
     border-radius: 5px;
     border: none;
     outline: none;
 }
 
-.btn{
+.btn {
     background-color: var(--primeira);
     color: var(--text-color);
     text-transform: uppercase;
@@ -99,21 +101,21 @@
     border: none;
 }
 
-.btn:hover{
+.btn:hover {
     opacity: 1;
 }
 
 
 /*seçao-1*/
 
-#principal h2{
+#principal h2 {
     background-color: var(--secundaria);
     text-align: center;
     padding: 2em;
     font-weight: 500;
 }
 
-.beneficios{
+.beneficios {
     display: flex;
     justify-content: space-around;
     padding: 4em;
@@ -121,17 +123,16 @@
     margin: 0 auto;
 }
 
-.beneficio{
+.beneficio {
     text-align: center;
     display: flex;
-    background-color: #c45151;
     flex-direction: column;
     align-items: center;
     max-width: 20%;
     color: var(--text-terciaria);
 }
 
-.beneficio .beneficio-img{
+.beneficio .beneficio-img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -140,22 +141,22 @@
     margin-bottom: 1em;
 }
 
-#beneficio-1{
+#beneficio-1 {
     background-image: url(../Imagens/hamburger.jpg);
 }
 
-#beneficio-2{
+#beneficio-2 {
     background-image: url(../Imagens/pancaca-evento.jpg);
 }
 
-#beneficio-3{
+#beneficio-3 {
     background-image: url(../Imagens/doce-evento.jpg);
 }
 
 /*endereço*/
 
-#local{
-    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
+#local {
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
     background-image: url("../Imagens/hotel-cozinha.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -168,46 +169,47 @@
     margin-bottom: 3em;
 }
 
-#endereço, #about-location{
-   max-width: 30%;
+#endereço,
+#about-location {
+    max-width: 30%;
 }
 
-#endereço{
+#endereço {
     display: flex;
 }
 
-#endereço i{
+#endereço i {
     color: var(--primeira);
     font-size: 4em;
     margin-right: 0.5;
 
 }
 
-#detalhes-endereço{
+#detalhes-endereço {
     text-align: center;
     font-size: 1.3em;
 }
 
-#about-location h3{
+#about-location h3 {
     color: var(--primeira);
     font-size: 2.5em;
     text-transform: uppercase;
     margin-bottom: 1em;
 }
 
-#about-location p{
+#about-location p {
     line-height: 1.5em;
-    letter-spacing:0.3;
+    letter-spacing: 0.3;
 }
 
 /*secao detalhes*/
 
-#detalhes{
+#detalhes {
     width: 80%;
     margin: 0 auto;
 }
 
-.detalhe{
+.detalhe {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
@@ -215,42 +217,43 @@
     margin-bottom: 4em;
 }
 
-.detalhe img{
+.detalhe img {
     width: 50%;
 }
 
-.detalhe h3{
+.detalhe h3 {
     margin-bottom: 1em;
     font-size: 2em;
     font-weight: 500;
 }
 
-#detalhe-1 h3{
+#detalhe-1 h3 {
     font-size: 3em;
     font-weight: 700;
 }
 
-.descriçao-detalhe{
+.descriçao-detalhe {
     width: 100%;
     padding-left: 2em;
 }
 
-.descriçao-detalhe UL{
+.descriçao-detalhe UL {
     list-style-position: inside;
 }
 
-.descriçao-detalhe li{
+.descriçao-detalhe li {
     margin-bottom: 0.4em;
 }
 
-.descriçao-detalhe ul li:last-child{  /*Trabalha no ultimo elemento de cada li*/
+.descriçao-detalhe ul li:last-child {
+    /*Trabalha no ultimo elemento de cada li*/
     font-weight: bold;
 }
 
 /* INSCREVA-SE*/
 
-#inscreva-se{
-    background: linear-gradient(to left,rgba(0,0,0,.8), rgba(0,0,0,0.8)), url("../Imagens/fazendo_a_massa.jpg");  
+#inscreva-se {
+    background: linear-gradient(to left, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.8)), url("../Imagens/fazendo_a_massa.jpg");
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -261,13 +264,13 @@
     align-items: center;
 }
 
-#inscreva-se h3{
+#inscreva-se h3 {
     margin-bottom: 1.2em;
     font-size: 2em;
     font-weight: bold;
 }
 
-#inscreva-se .btn{
+#inscreva-se .btn {
     width: 30%;
     margin: 0 auto;
     font-weight: 600;
@@ -275,7 +278,7 @@
 }
 
 /*Footer*/
-footer{
+footer {
     text-align: center;
     color: var(--secundaria);
     height: 450px;
@@ -284,123 +287,219 @@ footer{
     justify-content: center;
 }
 
-footer h3{
+footer h3 {
     font-size: 1.8em;
     margin-bottom: .5em;
 }
 
-footer p:nth-child(2){
-margin-bottom: 1em;
-font-size: 1.2em;
+footer p:nth-child(2) {
+    margin-bottom: 1em;
+    font-size: 1.2em;
 }
 
-footer span{
+footer span {
     font-weight: bold;
+}
+
+
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container.mostrar {
+    display: flex;
+}
+
+.mostrar .modal {
+    animation: modal .3s;
+}
+
+.modal {
+    background-color: white;
+    width: 50%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid black;
+    box-shadow: 0px 0px 0px 10px white;
+    position: relative;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+#fechar {
+    position: absolute;
+    top: -30px;
+    right: -30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    cursor: pointer;
+    box-shadow: 0px 6px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.modal input {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.modal h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.modal form {
+    margin: auto;
+    width: 80%;
+}
+
+.msg-modal{
+    display: none;
 }
 
 /*mobile*/
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:768px) {
+
+    /*modal*/
+
+    .modal{
+        width: 80%;
+    }
+    
+
+    .msg-modal{
+        display: block;
+    }
+
+    .modal form {
+        margin: auto;
+        width: 100%;
+    }
+    
 
     /*principal*/
 
-    #descriçao-evento{
-         flex-direction: column;
-         height: auto;
+    #descriçao-evento {
+        flex-direction: column;
+        height: auto;
     }
 
-    #descriçao-dentro{
+    #descriçao-dentro {
         padding: 2em;
     }
 
-    #descriçao-dentro h2{
+    #descriçao-dentro h2 {
         margin-bottom: .5em;
     }
 
-    #formulario{
+    #formulario {
         max-width: 70%;
         margin-bottom: 2em;
     }
 
-    .beneficios{
-      flex-direction: column;
-      align-items: center;
-      width: auto;
-      padding: 2em;
+    .beneficios {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        padding: 2em;
     }
 
-    .beneficio{
+    .beneficio {
         max-width: 100%;
     }
 
     /*local do evento*/
 
-    #local{
+    #local {
         flex-direction: column;
         height: auto;
         text-align: center;
         padding: 2em 0;
     }
 
-    #endereço{
+    #endereço {
         order: 2;
         flex-direction: column;
         max-width: 100%;
     }
 
-    #endereço i{
+    #endereço i {
         margin: .3em 0;
     }
 
-    #about-location{
+    #about-location {
         order: 1;
         max-width: 100%;
     }
 
-    #about-location h3{
-   margin-bottom: 0;
+    #about-location h3 {
+        margin-bottom: 0;
     }
 
-    #about-location p{
+    #about-location p {
         display: none;
     }
 
     /*detalhes do evento*/
 
-    .detalhe{
+    .detalhe {
         flex-direction: column;
         margin-bottom: .5em;
         gap: 0;
     }
 
-    .detalhe img{
+    .detalhe img {
         width: 100%;
         margin: 2em 0;
     }
 
-    .descriçao-detalhe{
+    .descriçao-detalhe {
         padding: 0;
     }
 
-    #detalhe-3 img{
+    #detalhe-3 img {
         order: 3;
     }
 
-    #detalhe-3 .descriçao-detalhe{
+    #detalhe-3 .descriçao-detalhe {
         order: 1;
     }
 
     /*cta*/
 
-    #inscreva-se{
+    #inscreva-se {
         text-align: center;
     }
-    #inscreva-se .btn{
+
+    #inscreva-se .btn {
         width: 80%;
     }
 
-    .btn{
+    .btn {
         opacity: 1;
     }
-    
+
 }
