@@ -225,6 +225,7 @@
     margin-bottom: 1em;
     font-size: 2em;
     font-weight: 500;
+    color: var(--secundaria);
 }
 
 #detalhe-1 h3 {
